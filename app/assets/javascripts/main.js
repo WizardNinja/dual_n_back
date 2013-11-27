@@ -12,8 +12,8 @@ $(function(){
   $("#game").css("width", window.innerHeight * .7 + "px");
   $("#game_title").css("font-size", window.innerHeight * .05 + "px");
   $("#score").css("font-size", window.innerHeight * .03 + "px");
-  $("#main_area").css("height", window.innerHeight * .5 + "px");
-  $("#main_area").css("width", window.innerHeight * .5 + "px");
+  $("#main_button").css("height", window.innerHeight * .5 + "px");
+  $("#main_button").css("width", window.innerHeight * .5 + "px");
   $("#audio_button").css("height", window.innerHeight * .3 + "px");
   $("#audio_button").css("width", window.innerHeight * .3 + "px");
   $("#visual_button").css("height", window.innerHeight * .3 + "px");
@@ -24,8 +24,8 @@ $(function(){
     $("#game").css("width", window.innerHeight * .7 + "px");
     $("#game_title").css("font-size", window.innerHeight * .05 + "px");
     $("#score").css("font-size", window.innerHeight * .03 + "px");
-    $("#main_area").css("height", window.innerHeight * .5 + "px");
-    $("#main_area").css("width", window.innerHeight * .5 + "px");
+    $("#main_button").css("height", window.innerHeight * .5 + "px");
+    $("#main_button").css("width", window.innerHeight * .5 + "px");
     $("#audio_button").css("height", window.innerHeight * .3 + "px");
     $("#audio_button").css("width", window.innerHeight * .3 + "px");
     $("#visual_button").css("height", window.innerHeight * .3 + "px");

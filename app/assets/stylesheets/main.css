@@ -32,13 +32,22 @@ body  {
 	font-family: Gorditas;
 }
 
-#game #main_area {
+#game #main_button {
 	margin: 15px auto 5px auto;
 	width: 100%;
 	height: 500px;
 	border-radius: 100%;
 	background-color: #fff;
 	border: 4px solid black;
+	background-image: url(background.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#game #main_button #main_image {
+	width: 80%;
+	margin: 0, auto;
 }
 
 #game #audio_button {
@@ -49,6 +58,10 @@ body  {
 	background-color: #fff;
 	border: 4px solid black;
 	margin: 0 5px 5px 0;
+	background-image: url(ear.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #game #visual_button {
@@ -59,4 +72,8 @@ body  {
 	background-color: #fff;
 	border: 4px solid black;
 	margin: 0 0 5px 5px;
+	background-image: url(eye-icon.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
