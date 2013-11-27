@@ -1,0 +1,11 @@
+<h1>Your Scores</h1>
+<table>
+	<th>level</th>
+	<th>score</th>
+<% @scores.each do |score| %>
+	<tr>
+		<td><%= score.level %></td>
+		<td><%= score.score %></td>
+	</tr>
+<% end %>
+</table>

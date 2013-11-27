@@ -134,7 +134,6 @@ window.onload = function(){
 				}
 				if (muligans <= 0){
 					gameState = "end";
-					$("#main_image").attr("src", "gameover.png");
 					$("#main_image").show();
 					console.log(gameState);
 				}

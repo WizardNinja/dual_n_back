@@ -1,0 +1,13 @@
+<h1>Top Scores</h1>
+<table>
+	<th>user name</th>
+	<th>level</th>
+	<th>score</th>
+<% @scores.each do |score| %>
+	<tr>
+		<td><%= score.user.name %></td>
+		<td><%= score.level %></td>
+		<td><%= score.score %></td>
+	</tr>
+<% end %>
+</table>
