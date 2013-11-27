@@ -1,5 +1,6 @@
 $(function(){
 	$('#bt-menu').append('<div class"bt-overlay"></div>');
+  
   $('#bt-menu').on('click', '.bt-overlay', function(){
     toggleClass('bt-menu-open');
   });
