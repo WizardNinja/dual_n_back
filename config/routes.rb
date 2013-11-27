@@ -1,4 +1,3 @@
-DualNBackTwo::Application.routes.draw do
-  root to: "dual_n_back#index"
-  get '/dual_n_back' => 'dual_n_back#index'
+StylingExp::Application.routes.draw do
+  root to: "main#index"
 end

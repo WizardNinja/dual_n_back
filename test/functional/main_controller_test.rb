@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class DualNBackControllerTest < ActionController::TestCase
+class MainControllerTest < ActionController::TestCase
   # test "the truth" do
   #   assert true
   # end

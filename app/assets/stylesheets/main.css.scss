@@ -1,0 +1,63 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body  {
+	background: #1abc9c;
+}
+
+#game {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: blue;
+	height: 100%;
+	padding-top: 0;
+}
+
+#game #game_title {
+	color: white;
+	background-color: red;
+	padding: 5px;
+	font-family: Gorditas;
+}
+
+#game #score {
+	color: white;
+	background-color: green;
+	padding: 5px;
+	font-family: Gorditas;
+}
+
+#game #main_area {
+	margin: 15px auto 5px auto;
+	width: 100%;
+	height: 500px;
+	border-radius: 100%;
+	background-color: #fff;
+	border: 4px solid black;
+}
+
+#game #audio_button {
+	display: inline-block;
+	width: 240px;
+	height: 240px;
+	border-radius: 100%;
+	background-color: #fff;
+	border: 4px solid black;
+	margin: 0 5px 5px 0;
+}
+
+#game #visual_button {
+	display: inline-block;
+	width: 240px;
+	height: 240px;
+	border-radius: 100%;
+	background-color: #fff;
+	border: 4px solid black;
+	margin: 0 0 5px 5px;
+}

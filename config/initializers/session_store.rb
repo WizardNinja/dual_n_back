@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-DualNBackTwo::Application.config.session_store :cookie_store, key: '_dual_n_back_two_session'
+StylingExp::Application.config.session_store :cookie_store, key: '_styling_exp_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# DualNBackTwo::Application.config.session_store :active_record_store
+# StylingExp::Application.config.session_store :active_record_store

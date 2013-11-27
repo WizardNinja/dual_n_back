@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-DualNBackTwo::Application.config.secret_token = '76e1c4c045e5f428fec46de3809f7413d357e36af112b4d72ae771d260343f9554eb9763eed635bce88d67b9033e736f1f28201732d66a72b50ff2edf4c1f126'
+StylingExp::Application.config.secret_token = 'b9de53d2caa81fabaa3f7dca660cdcfc4384953468069487a20b91cf847f0097223cde309d5dc96a86614ceb08174f569b76ab1860433618ea1492d56e91cee0'
