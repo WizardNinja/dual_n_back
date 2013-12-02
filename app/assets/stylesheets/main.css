@@ -45,7 +45,14 @@ body  {
 	background-position: center;
 }
 
-#game #main_button #main_image {
+#game #main_button #start_image,
+#game #main_button #getready_image,
+#game #main_button #cow_image,
+#game #main_button #dog_image,
+#game #main_button #horse_image,
+#game #main_button #pig_image,
+#game #main_button #rooster_image,
+#game #main_button #gameover_image{
 	width: 80%;
 	-webkit-transform: translateY(10%);
 	transform: translateY(10%);
