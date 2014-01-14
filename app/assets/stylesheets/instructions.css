@@ -1,0 +1,25 @@
+#instructions {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#instructions01_image {
+	width:490px;
+}
+
+#instructions02_image {
+	width:490px;
+}
+
+#instructions03_image {
+	width:490px;
+}
+
+#instructions04_image {
+	width:490px;
+}
+
+#info_image {
+	-webkit-transform: translateY(-30%);
+	transform: translateY(-30%);
+}

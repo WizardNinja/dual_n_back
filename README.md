@@ -8,5 +8,3 @@
 - #### Add instructions
 - #### should display your name somewhere when logged in
 - #### signin should change to signout when logged in
-- #### try loading all the animal images at once, and hidding/showing the proper image.
-- #### difficulty should change every 25 points

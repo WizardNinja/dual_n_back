@@ -1,38 +1,19 @@
-<div class="container">
-	<div id="game">
-		<p id="game_title">Dual-N-Back</p>
-		<p id="score">N: 1 Score: 0 Chances: 3</p>
-		<div id="main_button">
-			<%= image_tag "start.png", id: "start_image" %>
-			<%= image_tag "getready.png", id: "getready_image" %>
-			<%= image_tag "cow.png", id: "cow_image" %>
-			<%= image_tag "dog.png", id: "dog_image" %>
-			<%= image_tag "horse.png", id: "horse_image" %>
-			<%= image_tag "pig.png", id: "pig_image" %>
-			<%= image_tag "rooster.png", id: "rooster_image" %>
-			<%= image_tag "gameover.png", id: "gameover_image" %>
-		</div>
-		<div id="audio_button">
-		</div>
-		<div id="visual_button">
-		</div> 
+<div id="game">
+	<p id="game_title">Dual-N-Back</p>
+	<p id="score">N: 1 Score: 0 Chances: 3</p>
+	<div id="main_button">
+		<%= image_tag "start.png", id: "start_image" %>
+		<%= image_tag "getready.png", id: "getready_image" %>
+		<%= image_tag "cow.png", id: "cow_image" %>
+		<%= image_tag "dog.png", id: "dog_image" %>
+		<%= image_tag "horse.png", id: "horse_image" %>
+		<%= image_tag "pig.png", id: "pig_image" %>
+		<%= image_tag "rooster.png", id: "rooster_image" %>
+		<%= image_tag "gameover.png", id: "gameover_image" %>
 	</div>
+	<div id="audio_button">
+	</div>
+	<div id="visual_button">
+	</div> 
+</div>
 
-	<nav id="bt-menu" class="bt-menu">
-		<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
-		<ul>
-			<li><a href="sessions/new">Sign In</a></li>
-			<% if current_user %>
-			<li><a href="scores/<%= current_user.id %>">Your High Scores</a></li>
-			<% end %>
-			<li><a href="scores">High Scores</a></li>
-		</ul>
-		<ul>
-			<li><a href="http://www.twitter.com" class="bt-icon icon-twitter">Twitter</a></li>
-			<li><a href="https://plus.google.com" class="bt-icon icon-gplus">Google+</a></li>
-			<li><a href="http://www.facebook.com" class="bt-icon icon-facebook">Facebook</a></li>
-			<li><a href="https://github.com" class="bt-icon icon-github">icon-github</a></li>
-		</ul>
-	</nav>
-
-</div><!-- /container -->

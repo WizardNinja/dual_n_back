@@ -7,4 +7,5 @@ StylingExp::Application.routes.draw do
   resources :sessions, only: [:new, :create]
   post '/sessions' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
+  get '/instructions' => 'main#instructions'
 end
