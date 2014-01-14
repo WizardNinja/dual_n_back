@@ -5,18 +5,26 @@
 
 #instructions01_image {
 	width:490px;
+	-webkit-transform: translateY(-150%);
+	transform: translateY(-150%);
 }
 
 #instructions02_image {
 	width:490px;
+	-webkit-transform: translateY(-150%);
+	transform: translateY(-150%);
 }
 
 #instructions03_image {
 	width:490px;
+	-webkit-transform: translateY(-150%);
+	transform: translateY(-150%);
 }
 
 #instructions04_image {
 	width:490px;
+	-webkit-transform: translateY(-150%);
+	transform: translateY(-150%);
 }
 
 #info_image {
